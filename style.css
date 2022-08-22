@@ -1,8 +1,12 @@
 .container{
-    border-bottom: 100px;
+    margin-bottom: 100px;
+}
+.container2{
+    margin-top: 100px;
 }
 .light_pink{
     background-color: #fceae8;
+    border-radius: 8px;
 }
 .carousel-item{
     padding: 20px 40px;
@@ -17,4 +21,38 @@
     padding: 9px 25px;
     border-radius: 8px;
     cursor: pointer;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.cat1{
+    background-image: linear-gradient(to left, #ff5898 0%, lightcoral 100%);
+}
+.cat2{
+    background-image: linear-gradient(to left, lightpink 0%, #ff5898 100%);
+}
+.cat3{
+    background-image: linear-gradient(to left, #ff5898 0%, lightsalmon 100%);
+}
+.catagories h1{
+    color: white;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.cont4{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
